@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your updated CSS -->
+</head>
+<body>
+
+    <!-- Header and Navigation with a unique background -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section with a creative layout -->
+    <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="image/profile.jpg.jpg"
+            alt="Profile Picture"
+             class="profile-img">
+            <p>Hello! my name is Eman and i'm a passionate web developer with experience in creating dynamic and responsive websites. I love coding and I'm constantly learning new technologies to enhance my skills.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section with grid layout -->
+    <section id="projects" class="section-projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Recipe Finder</h3>
+            <p>This is a web app that helps users find recipes based on ingredients they have at home. It connects to a public API for a large database of recipes</p>
+            <p><strong>Technologies Used:</strong>HTML, CSS, Javascript, Recipe API</p>
+            <p><strong>Features:</strong>Ingredient search, recipe suggestions, step-by-step instructions.</p>
+            </div>
+            <div class="project">
+                <h3>Task Manager</h3>
+                <p>A task management application that helps users organise thier task with deadlines, priorities, and categories.</p>
+                <p><strong>Features:</strong> Task CRUD operations, filter task by category mark task as complete.</p>
+            </div>
+            <div class="project">
+                <h3>Online stores</h3>
+                <p>This is a mock e-commerce store where users can browse products, add items to the chart, and proceed to checkout</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, Javascript, Firebase</p>
+                <p><strong>Features:</strong>
+            product catalog, shopping cart, checkout process. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section with unique button styles -->
+    <section id="contact" class="section-contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="successMessage"></p> <!-- Success message will be shown here -->
+    </section>
+
+    <!-- Footer with a creative layout -->
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
